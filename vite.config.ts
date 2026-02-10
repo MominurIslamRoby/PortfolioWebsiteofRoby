@@ -4,7 +4,10 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Portfolio/',
+
+  // ✅ FIX: base path must match GitHub repo name EXACTLY
+  base: '/PortfolioWebsiteofRoby/',
+
   build: {
     outDir: 'dist',
     emptyOutDir: true,
@@ -26,7 +29,14 @@ export default defineConfig({
     sourcemap: false,
     reportCompressedSize: false, // Faster builds
   },
+
   optimizeDeps: {
-    include: ['react', 'react-dom', 'react-router-dom', 'framer-motion', 'lucide-react'],
+    include: [
+      'react',
+      'react-dom',
+      'react-router-dom',
+      'framer-motion',
+      'lucide-react',
+    ],
   },
 });
