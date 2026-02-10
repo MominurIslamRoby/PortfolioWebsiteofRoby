@@ -1,8 +1,8 @@
 <div align="center">
 
-# ⚡ Portfolio Website — Mominur Islam Roby
+# Portfolio Website — Mominur Islam Roby
 
-### 🚀 Engineering Performance-First Digital Experiences
+###  Engineering Performance-First Digital Experiences
 
 <p align="center">
   <a href="https://mominurislamroby.github.io/PortfolioWebsiteofRoby/" target="_blank">🌐 Live Website</a>
@@ -72,92 +72,3 @@ The website showcases my **skills, experience, projects, and certifications** th
 ├── tailwind.config.js # Tailwind setup
 ├── package.json       # Project metadata
 └── README.md          # Documentation
-
-🌍 Live Demo
-
-🔗 Website:
-👉 https://mominurislamroby.github.io/PortfolioWebsiteofRoby/
-
-🖥️ Best viewed on modern browsers
-(Chrome · Edge · Firefox)
-
-🛠️ Getting Started (Local Development)
-git clone https://github.com/MominurIslamRoby/PortfolioWebsiteofRoby.git
-cd PortfolioWebsiteofRoby
-npm install
-npm run dev
-
-The app will be available at:
-http://localhost:5173
-
-📦 Production Build
-npm run build
-
-
-The optimized output will be generated inside the dist/ directory.
-
-⚙️ Deployment Strategy
-
-This project is deployed using GitHub Pages with GitHub Actions.
-
-🚀 Deployment Flow
-
-Push changes to main
-
-GitHub Actions installs dependencies
-
-Production build is generated
-
-Site is deployed automatically
-
-✅ Zero-manual deployment
-✅ Fully automated CI/CD pipeline
-
-🧩 Design Philosophy
-
-✨ Minimalism over clutter
-
-📖 Readability over cleverness
-
-⚡ Performance over hype
-
-🧠 Scalability over shortcuts
-
-Every component is designed to be reusable, testable, and maintainable.
-
-📈 Performance & Quality
-
-Optimized bundle splitting
-
-Tree-shaken dependencies
-
-Minimal asset payload
-
-Clean routing configuration
-
-Stable and reproducible builds
-
-👤 Author
-
-Mominur Islam Roby
-Competitive Programmer & Software Engineer
-
-🌐 Portfolio: https://mominurislamroby.github.io/PortfolioWebsiteofRoby/
-
-💻 GitHub: https://github.com/MominurIslamRoby
-
-⭐ Support
-
-If you like this project:
-
-⭐ Star the repository
-
-🍴 Fork it
-
-📢 Share it
-
-It genuinely helps and is appreciated.
-
-<div align="center">
-Built with precision, performance, and passion ⚡
-</div> ```
