@@ -1,0 +1,1 @@
+import{j as r}from"./vendor-motion-OK4N57cd.js";import{P as t}from"./Projects-C6LFKNy1.js";import"./vendor-react-B8-qR-_D.js";import"./vendor-icons-B536aqOL.js";const a=()=>r.jsx("div",{className:"pt-10",children:r.jsx(t,{})});export{a as default};
