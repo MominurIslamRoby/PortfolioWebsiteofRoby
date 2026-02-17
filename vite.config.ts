@@ -5,14 +5,14 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
 
-  // ✅ FIX: base path must match GitHub repo name EXACTLY
-  base: '/PortfolioWebsiteofRoby/',
+  // ✅ FIXED: For custom root domain
+  base: '/',
 
   build: {
     outDir: 'dist',
     emptyOutDir: true,
     cssCodeSplit: true,
-    assetsInlineLimit: 4096, // Inline assets smaller than 4kb
+    assetsInlineLimit: 4096,
     rollupOptions: {
       input: {
         main: './index.html',
@@ -27,7 +27,7 @@ export default defineConfig({
     },
     minify: 'esbuild',
     sourcemap: false,
-    reportCompressedSize: false, // Faster builds
+    reportCompressedSize: false,
   },
 
   optimizeDeps: {
